@@ -84,7 +84,7 @@ td>center{
     background: rgb(151, 153, 151);
 }
 #cubo{
-    width: 590px;
+    width: 650px;
     height: 29px;
 }
 h1{ 
@@ -99,6 +99,9 @@ form{
     width: 40%;
     height: 80%;
     color: #fff;
+}
+textarea{
+    resize:inherit;
 }
 input{
     background: rgb(151, 153, 151);
