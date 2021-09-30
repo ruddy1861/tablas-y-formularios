@@ -1,16 +1,20 @@
 *{
-    background: #eff0ad;
+    background: #c0d2fa;
 }
-table{
+table,tbody{
     border: 1px solid rgb(15, 15, 15);
-    background: rgb(178, 218, 176);
+    background: rgb(10, 10, 10);
     width: 50%;
     height: 50%;
     
 }
+tr:hover td{
+    background: #5e5f5e;
+    color: #fff;
+} 
 caption{
     border: 1px solid rgb(15, 15, 15);
-    background: #86c289;
+    background: #575857;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:x-large;  
     color: #fff;
@@ -20,44 +24,60 @@ caption{
 }
 thead{
     border:1px solid rgb(13, 14, 14);
-    background: #66F871;
+    background: #454645;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
 
 }
-th{
+tr>th{
     border: 2px solid;
+    background: rgb(94, 95, 94);
+    color: #fff;
 }
 td{
     border: 1px solid;
+    background: rgb(151, 153, 151);
+}
+td>center{
+    background: rgb(151, 153, 151);
 }
 #cubo{
-    width: 680px;
-    height: 30px;
+    width: 770px;
+    height: 29px;
 }
 h1{ 
-    background: rgb(199, 240, 197);
+    background:rgb(78, 78, 78);
     font-family:Georgia, 'Times New Roman', Times, serif ;
-    color: rgb(15, 15, 15);
+    color: #fff;
     font-size: x-large;
 }
 form{
     border: 1px solid;
-    background: #D0F8D3;
+    background: rgb(93, 92, 92);
     width: 40%;
     height: 80%;
+    color: #fff;
 }
 input{
-    background: #9DF3A3;
+    background: rgb(151, 153, 151);
     width: 70%;
     height: 100%;
 
 }
+input:hover{
+    background: #fff;
+    color: #000;
+}
 select{
-    background: #9DF3A3;
+    background: rgb(151, 153, 151);
     width: 70%;
-    height: 70%;
+    height: 100%;
+}
+select option{
+    background: #5e6f91;
+
 }
 .button{
-    background: #7e9470;
+    background: #454644;
+    color:#fff
 }
